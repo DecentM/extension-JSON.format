@@ -18,7 +18,7 @@
     if (formatted !== document.documentElement.innerText) {
       document.documentElement.innerHTML = `<pre>${formatted}</pre>`
       console.log(
-        '%c JSON formatted %c https://github.com/DecentM/json.format',
+        '%c JSON formatted %c https://github.com/DecentM/extension-JSON.format',
         [
           'color: white;',
           'padding: 5px;',
